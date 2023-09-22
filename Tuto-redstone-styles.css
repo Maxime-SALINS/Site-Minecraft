@@ -5,7 +5,13 @@ body{
 header{
     background-color:rgba(166, 166, 244, 0.351);
     height: 56px;
-    width: 1536px;
+    width: 1523px;
+}
+
+h2{
+    margin: 0;
+    height: 56px;
+    text-align: center;
 }
 
 ul{
@@ -33,4 +39,6 @@ a{
     display: inline;
     height: 28px;
 }
+
+
 
