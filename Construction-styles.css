@@ -1,5 +1,6 @@
 body{
     background-color: rgba(166, 166, 244, 0.351);
+    margin: 0;
 }
 
 header{
@@ -19,6 +20,10 @@ li{
     height: 56px;
 }
 
+li:last-child{
+    float: right;
+}
+
 li a {
     display: block;
     color: white;
@@ -29,8 +34,12 @@ li a {
     font-weight: 900;
 }
 
+
 a{
     display: inline;
     height: 28px;
 }
 
+li a:hover {
+    background-color: rgb(85, 85, 221);
+}
