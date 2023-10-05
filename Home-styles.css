@@ -83,10 +83,41 @@ p{
     padding: 5px 5px;
 }
 
+#P_construction{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 26px;
+    color: white;
+}
+
+#P_redstone{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 26px;
+    color: white;
+}
+
+#P_tuto_constru{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 26px;
+    color: white;
+}
+
+#P_partage{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 26px;
+    color: white; 
+}
+
+#P_FAQ{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 26px;
+    color: white; 
+}
+
+
 #image-illustration1{
     float: left;
-    height: 85px;
-    width: 85px;
+    height: 70px;
+    width: 70px;
 }
 
 aside{
