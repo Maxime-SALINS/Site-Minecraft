@@ -6,7 +6,7 @@ body{
 header{
     background-color:rgba(166, 166, 244, 0.351);
     height: 56px;
-    width: 1536px;
+    width: 100%;
 }
 
 ul{
@@ -47,17 +47,15 @@ div{
 }
 
 section{
-    background-color: rgb(124, 124, 244);
-    border-style: dashed;
     border-color: white;
     height: auto;
-    width: 1285px;
-    margin: 10px 0px 10px 0px;
+    width: 84%;
+    margin: 1% 0% 1% 0%;
 }
 
 #image-intro{
-    height: 200px;
-    width: 150px;
+    height: 13%;
+    width: 11.9%;
     float: left;
     padding: 5px 10px;
 }
@@ -118,22 +116,22 @@ p{
     float: left;
     height: 70px;
     width: 70px;
+    margin-right: 1.7%;
 }
 
 aside{
     background-color: rgb(124, 124, 244);
     border-style: dashed;
     border-color: white;
-    height: 300px;
-    width: 200px;
-    margin-left: 25px;
-    margin: 10px 0px 10px 25px
+    height: auto;
+    width: 16%;
+    margin: 1% 0% 1% 1.63%
 }
 
 footer{
     background-color: rgba(166, 166, 244, 0.351);
     height: 50px;
-    width: 1536px;
+    width: 100%;
 }
 
 
