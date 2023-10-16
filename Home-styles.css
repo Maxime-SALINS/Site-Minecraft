@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(166, 166, 244, 0.351);
+    background-image: linear-gradient(to top, blue,rgba(166, 166, 244, 0.351));
     margin: 0;
 }
 
@@ -81,34 +81,43 @@ p{
     padding: 5px 5px;
 }
 
+table{
+    width: 100%;
+}
+
 #P_construction{
     font-family: 'Kaushan Script', cursive;
     font-size: 26px;
     color: white;
+    margin: 1.5% 0% 1.5% 1%;
 }
 
 #P_redstone{
     font-family: 'Kaushan Script', cursive;
     font-size: 26px;
     color: white;
+    margin: 1.5% 0% 1.5% 1%;
 }
 
 #P_tuto_constru{
     font-family: 'Kaushan Script', cursive;
     font-size: 26px;
     color: white;
+    margin:1.5% 0% 1.5% 1%;
 }
 
 #P_partage{
     font-family: 'Kaushan Script', cursive;
     font-size: 26px;
-    color: white; 
+    color: white;
+    margin:1.5% 0% 1.5% 1%;
 }
 
 #P_FAQ{
     font-family: 'Kaushan Script', cursive;
     font-size: 26px;
-    color: white; 
+    color: white;
+    margin:1.5% 0% 1.5% 1%;
 }
 
 
@@ -116,7 +125,7 @@ p{
     float: left;
     height: 70px;
     width: 70px;
-    margin-right: 1.7%;
+    margin: 0% 10% 0% 10%
 }
 
 aside{
