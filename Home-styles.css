@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to top, blue,rgba(166, 166, 244, 0.351));
+    background-image: linear-gradient(to top, rgba(12, 12, 137, 0.893),rgba(166, 166, 244, 0.351));
     margin: 0;
 }
 
@@ -129,7 +129,6 @@ table{
 }
 
 aside{
-    background-color: rgb(124, 124, 244);
     border-style: dashed;
     border-color: white;
     height: auto;
@@ -138,7 +137,7 @@ aside{
 }
 
 footer{
-    background-color: rgba(166, 166, 244, 0.351);
+    background-color: rgba(12, 12, 137, 0.893);
     height: 50px;
     width: 100%;
 }
