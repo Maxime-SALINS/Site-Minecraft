@@ -138,8 +138,37 @@ aside{
 
 footer{
     background-color: rgba(12, 12, 137, 0.893);
-    height: 50px;
+    height: auto;
     width: 100%;
 }
 
+#table_footer{
+    width: 50%;
+    text-align: center;
+    margin: 0%;
+}
 
+#footer_titre{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    margin: 0%;
+    text-align: center;
+}
+
+#image_footer{
+    margin: 0%;
+    height: 10%;
+    width: 10%;
+}
+
+#footer_youtube{
+    font-family: 'Kaushan Script', cursive;
+    color:white;
+    margin: 0%;
+}
+
+#footer_discord{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    margin: 0%;
+}
