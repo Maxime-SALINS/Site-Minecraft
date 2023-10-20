@@ -76,7 +76,9 @@ h2{
     margin: 0;
 }
 
-p{
+.P-intro{
+    font-family: 'Kaushan Script', cursive;
+    color: black;
     text-align: justify;
     padding: 5px 5px;
 }
@@ -85,41 +87,12 @@ table{
     width: 100%;
 }
 
-#P_construction{
+.liste-onglet-details{
     font-family: 'Kaushan Script', cursive;
     font-size: 26px;
     color: white;
     margin: 1.5% 0% 1.5% 1%;
 }
-
-#P_redstone{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 26px;
-    color: white;
-    margin: 1.5% 0% 1.5% 1%;
-}
-
-#P_tuto_constru{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 26px;
-    color: white;
-    margin:1.5% 0% 1.5% 1%;
-}
-
-#P_partage{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 26px;
-    color: white;
-    margin:1.5% 0% 1.5% 1%;
-}
-
-#P_FAQ{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 26px;
-    color: white;
-    margin:1.5% 0% 1.5% 1%;
-}
-
 
 #image-illustration1{
     float: left;
@@ -143,9 +116,14 @@ footer{
 }
 
 #table_footer{
-    width: 50%;
+    width: auto;
     text-align: center;
-    margin: 0%;
+    margin: 3% 10%;
+}
+
+.Table-footer{
+    width: 10%;
+    padding: 0%;
 }
 
 #footer_titre{
@@ -157,18 +135,17 @@ footer{
 
 #image_footer{
     margin: 0%;
-    height: 10%;
-    width: 10%;
+    height: 20%;
+    width: 20%;
 }
 
-#footer_youtube{
+#P_footer{
+    text-align: center;
+    padding: 0%;
+}
+
+.footer-onglet-details{
     font-family: 'Kaushan Script', cursive;
     color:white;
-    margin: 0%;
-}
-
-#footer_discord{
-    font-family: 'Kaushan Script', cursive;
-    color: white;
     margin: 0%;
 }
