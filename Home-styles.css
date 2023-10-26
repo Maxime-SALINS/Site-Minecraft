@@ -13,6 +13,7 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 li{
@@ -148,4 +149,9 @@ footer{
     font-family: 'Kaushan Script', cursive;
     color:white;
     margin: 0%;
+}
+
+.button-footer{
+    width: auto;
+    height: auto;
 }
