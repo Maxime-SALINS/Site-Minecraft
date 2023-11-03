@@ -1,10 +1,9 @@
 body{
-    background-image: linear-gradient(to top, rgba(12, 12, 137, 0.893),rgba(166, 166, 244, 0.351));
     margin: 0;
 }
 
 header{
-    background-color:rgba(166, 166, 244, 0.351);
+    background-color:rgba(67, 67, 242, 0.351);
     height: 56px;
     width: 100%;
 }
@@ -44,6 +43,7 @@ li a:hover {
 }
 
 div{
+    background-image: linear-gradient(to top, rgba(12, 12, 137, 0.893),rgba(166, 166, 244, 0.351));
     display: inline-flex;
 }
 
@@ -151,7 +151,7 @@ footer{
     margin: 0%;
 }
 
-.button-footer{
-    width: auto;
-    height: auto;
+#bouton-footer{
+    display: grid;
+    align-items: center;
 }
