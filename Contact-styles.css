@@ -41,12 +41,24 @@ li a:hover {
     background-color: rgb(85, 85, 221);
 }
 
+
+div{
+    background-image: linear-gradient(to top,rgba(12, 12, 137, 0.893),rgba(166, 166, 244, 0.351));
+}
+
+
 h2{
     font-family: 'Kaushan Script', cursive;
     text-align: center;
-    color: blue;
+    color: white;
+    margin: 0%;
+    padding-bottom: 2%;
 }
 
+form{
+    text-align: center;
+    padding-bottom: 5%;
+}
 
 footer{
     background-color: rgba(12, 12, 137, 0.893);

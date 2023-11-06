@@ -33,7 +33,7 @@
     </header>
     <div>
         <h2>Me contacter</h2>
-        <form>
+        <form method="post" action="#" enctype="multipart/form-data">
             <label for="fname">Prénom:</label><br>
             <input type="text" id="fname" name="fname"><br>
             <label for="lname">Nom:</label><br>
@@ -43,9 +43,15 @@
             <label for="phone">Numéro de téléphone:</label><br>
             <input type="text" id="phone" name="phone"><br>
             <label for="subject">Sujet:</label><br>
-            <input type="text" id="subject" name="subject"><br>
+            <select id="subject" name="subject">
+                <option value=""></option>
+                <option value="Remerciement">Remerciement</option>
+                <option value="Requête participation">Requête participation à vos projets</option>
+                <option value="Question redstone">Question sur la redstone</option>
+                <option value="Contact support">Contact support</option>
+            </select><br>
             <label for="descript">Vous pouvez mettre un petit mot:</label><br>
-            <input type="text" id="descript" name="descript"><br><br>
+            <textarea name="message"></textarea><br>
             <input type="submit" value="Envoyer">
         </form>
     </div>
