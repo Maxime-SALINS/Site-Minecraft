@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    background-color:rgba(166, 166, 244, 0.351);
+    background-color:rgba(67, 67, 242, 0.351);
     height: 56px;
     width: 100%;
 }
@@ -39,4 +39,71 @@ a{
 
 li a:hover {
     background-color: rgb(85, 85, 221);
+}
+
+h2{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    color: blue;
+}
+
+
+footer{
+    background-color: rgba(12, 12, 137, 0.893);
+    height: auto;
+    width: 100%;
+    display: table;
+    align-content: center;
+}
+
+#table_footer{
+    width:100%;
+    text-align: center;
+    margin: 0% 0%;
+   
+}
+
+.Table-footer-text{
+    text-align: left;
+    padding: 0%;
+    width: 20%;
+}
+
+.vide {
+    width: 30%;
+}
+
+.Table-footer{
+    text-align: center;
+    width: 20%;
+    padding: 0%;
+}
+
+#footer_titre{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    margin: 0%;
+    text-align: center;
+}
+
+#image_footer{
+    margin: 0%;
+    height: 90px;
+}
+
+#P_footer{
+    text-align: center;
+    padding: 0%;
+}
+
+.footer-onglet-details{
+    font-family: 'Kaushan Script', cursive;
+    color:white;
+    margin: 0%;
+}
+
+#paragraphe-contact{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    text-align: center;
 }
