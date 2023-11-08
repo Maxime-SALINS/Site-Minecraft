@@ -44,6 +44,33 @@ li a:hover {
     background-color: rgb(85, 85, 221);
 }
 
+div{
+    background-image: linear-gradient(to top,rgba(12, 12, 137, 0.893),rgba(166, 166, 244, 0.351));
+    margin: 0%;
+}
+
+h3{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.image-maison{
+    height: 40%;
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+.article-n1{
+    font-family: 'Kaushan Script', cursive;
+    text-align: justify;
+    color: white;
+    padding: 1% 1%;
+    margin:0%;
+}
+
 footer{
     background-color: rgba(12, 12, 137, 0.893);
     height: auto;
