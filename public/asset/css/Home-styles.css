@@ -1,6 +1,12 @@
+/* --------------------------------------------------------------------------------*/
+/* --------------------Style body  ------------------*/
+
 body{
-    margin: 0;
+    margin: 0%;
 }
+
+/* --------------------------------------------------------------------------------*/
+/* --------------------Style header ------------------*/
 
 header{
     background-color:rgba(67, 67, 242, 0.351);
@@ -42,10 +48,32 @@ li a:hover {
     background-color: rgb(85, 85, 221);
 }
 
-div{
+/* --------------------------------------------------------------------------------*/
+/* --------------------Style section/aside ------------------*/
+
+#body_site{
     background-image: linear-gradient(to top, rgba(12, 12, 137, 0.893),rgba(166, 166, 244, 0.351));
-    display: inline-flex;
+    margin: 0%;
 }
+
+h1{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 100px;
+    margin: 0%;
+}
+
+.image-logo{
+    height: 85px;
+    width: 85px;
+}
+
+#dispo_section_aside{
+    display: flex;
+}
+
+/* --------------------------------------------------------------------------------*/
+/* --------------------Style section ------------------*/
 
 section{
     border-color: white;
@@ -54,39 +82,41 @@ section{
     margin: 1% 0% 1% 0%;
 }
 
+#dispo_img_article{
+    display: flex;
+}
+
+.menu_site{
+    display: inline;
+    justify-content: center;
+}
+
+.dispo_menu_site{
+    display: flex;
+    justify-content: left;
+}
+
+#title_article{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.P_article{
+    font-family: 'Outfit', sans-serif;
+    text-align: justify;
+}
+
 #image-intro{
-    height: 13%;
-    width: 11.9%;
-    float: left;
+    height: 17rem;
+    width: 13rem;
     padding: 5px 10px;
 }
 
-#image-logo1{
-    height: 85px;
-    width: 85px;
-}
-#image-logo2{
-    height: 85px;
-    width: 85px;
-}
-
-h2{
-    text-align: center;
-    font-family: 'Handjet', cursive;
-    font-size: 100px;
-    margin: 0;
-}
-
-.P-intro{
-    font-family: 'Kaushan Script', cursive;
-    color: black;
-    text-align: justify;
-    padding: 5px 5px;
-    margin: 0%;
-}
-
-table{
-    width: 100%;
+.image-illustration{
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin: 0% 10% 0% 10%
 }
 
 .liste-onglet-details{
@@ -96,12 +126,8 @@ table{
     margin: 1.5% 0% 1.5% 1%;
 }
 
-#image-illustration1{
-    float: left;
-    height: 70px;
-    width: 70px;
-    margin: 0% 10% 0% 10%
-}
+/* --------------------------------------------------------------------------------*/
+/* --------------------Style section ------------------*/
 
 aside{
     border-style: dashed;
@@ -111,62 +137,48 @@ aside{
     margin: 1% 0% 1% 1.63%
 }
 
+/* --------------------------------------------------------------------------------*/
+/* --------------------Style footer ------------------*/
+
 footer{
     background-color: rgba(12, 12, 137, 0.893);
-    height: auto;
     width: 100%;
-    display: table;
-    align-content: center;
 }
 
-#table_footer{
-    width:100%;
-    text-align: center;
-    margin: 0% 0%;
-   
-}
-
-.Table-footer-text{
-    text-align: left;
-    padding: 0%;
-    width: 20%;
-}
-
-.vide {
-    width: 30%;
-}
-
-.Table-footer{
-    text-align: center;
-    width: 20%;
-    padding: 0%;
-}
-
-#footer_titre{
+.contact_footer{
     font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    text-decoration: none;
     color: white;
-    margin: 0%;
-    text-align: center;
 }
 
-#image_footer{
-    margin: 0%;
-    height: 90px;
+#p_footer{
+    margin-top: 0%;
+    margin-bottom: 1.5%;
 }
 
-#P_footer{
-    text-align: center;
-    padding: 0%;
-}
-
-.footer-onglet-details{
+.reseaux_footer{
     font-family: 'Kaushan Script', cursive;
-    color:white;
-    margin: 0%;
-}
-
-#paragraphe-contact{
-    font-family: 'Kaushan Script', cursive;
+    text-align: center;
     color: white;
-    text-align: center;
+}
+
+.dispo_reseaux_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p_reseaux_footer{
+    margin-bottom: 0%;
+}
+
+#image_footer_1{
+    width: 8rem;
+    height: 6rem;
+}
+
+#image_footer_2{
+    width: 6rem;
+    height: 6rem;
 }

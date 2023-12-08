@@ -1,6 +1,12 @@
+/* --------------------------------------------------------------------------------*/
+/* --------------------Style body  ------------------*/
+
 body{
-    margin: 0;
+    margin: 0%;
 }
+
+/* --------------------------------------------------------------------------------*/
+/* --------------------Style header ------------------*/
 
 header{
     background-color:rgba(67, 67, 242, 0.351);
@@ -12,6 +18,7 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 li{
@@ -41,11 +48,12 @@ li a:hover {
     background-color: rgb(85, 85, 221);
 }
 
+/* --------------------------------------------------------------------------------*/
+/* --------------------Style formulaire ------------------*/
 
-div{
+#formulaire{
     background-image: linear-gradient(to top,rgba(12, 12, 137, 0.893),rgba(166, 166, 244, 0.351));
 }
-
 
 h2{
     font-family: 'Kaushan Script', cursive;
@@ -60,62 +68,48 @@ form{
     padding-bottom: 5%;
 }
 
+/* --------------------------------------------------------------------------------*/
+/* --------------------Style footer ------------------*/
+
 footer{
     background-color: rgba(12, 12, 137, 0.893);
-    height: auto;
     width: 100%;
-    display: table;
-    align-content: center;
 }
 
-#table_footer{
-    width:100%;
-    text-align: center;
-    margin: 0% 0%;
-   
-}
-
-.Table-footer-text{
-    text-align: left;
-    padding: 0%;
-    width: 20%;
-}
-
-.vide {
-    width: 30%;
-}
-
-.Table-footer{
-    text-align: center;
-    width: 20%;
-    padding: 0%;
-}
-
-#footer_titre{
+.contact_footer{
     font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    text-decoration: none;
     color: white;
-    margin: 0%;
-    text-align: center;
 }
 
-#image_footer{
-    margin: 0%;
-    height: 90px;
+#p_footer{
+    margin-top: 0%;
+    margin-bottom: 1.5%;
 }
 
-#P_footer{
-    text-align: center;
-    padding: 0%;
-}
-
-.footer-onglet-details{
+.reseaux_footer{
     font-family: 'Kaushan Script', cursive;
-    color:white;
-    margin: 0%;
-}
-
-#paragraphe-contact{
-    font-family: 'Kaushan Script', cursive;
+    text-align: center;
     color: white;
-    text-align: center;
+}
+
+.dispo_reseaux_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p_reseaux_footer{
+    margin-bottom: 0%;
+}
+
+#image_footer_1{
+    width: 8rem;
+    height: 6rem;
+}
+
+#image_footer_2{
+    width: 6rem;
+    height: 6rem;
 }
