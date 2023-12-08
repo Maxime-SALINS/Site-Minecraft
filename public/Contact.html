@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -31,30 +34,42 @@
             </ul> 
         </nav>
     </header>
-    <div id="formulaire">
+    <section id="formulaire">
         <h2>Me contacter</h2>
-        <form method="post" action="#" enctype="multipart/form-data">
-            <label for="fname">Prénom:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Nom:</label><br>
-            <input type="text" id="lname" name="lname"><br>
-            <label for="email">Adresse email:</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="phone">Numéro de téléphone:</label><br>
-            <input type="text" id="phone" name="phone"><br>
-            <label for="subject">Sujet:</label><br>
-            <select id="subject" name="subject">
-                <option value=""></option>
-                <option value="Remerciement">Remerciement</option>
-                <option value="Requête participation">Requête participation à vos projets</option>
-                <option value="Question redstone">Question sur la redstone</option>
-                <option value="Contact support">Contact support</option>
-            </select><br>
-            <label for="descript">Vous pouvez mettre un petit mot:</label><br>
-            <textarea name="message"></textarea><br>
-            <input type="submit" value="Envoyer">
+        <form action="" id="contact_form">
+            <div class="form_group">
+                <label for="fname">Prénom:</label>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div class="form_group">
+                <label for="lname">Nom:</label>
+                <input type="text" id="lname" name="lname">
+            </div>
+            <div class="form_group">
+                <label for="email">Adresse email:</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="form_group">
+                <label for="phone">Numéro de téléphone:</label>
+                <input type="text" id="phone" name="phone">
+            </div>
+            <div class="form_group">
+                <label for="subject">Sujet:</label>
+                <select id="subject" name="subject">
+                    <option value=""></option>
+                    <option value="Remerciement">Remerciement</option>
+                    <option value="Requête participation">Requête participation à vos projets</option>
+                    <option value="Question redstone">Question sur la redstone</option>
+                    <option value="Contact support">Contact support</option>
+                </select>
+            </div>
+            <div class="form_group">
+                <label for="descript">Vous pouvez mettre un petit mot:</label>
+                <textarea name="message"></textarea>
+            </div>
+            <button type="submit" id="form-contact-submit">Envoyer</button>
         </form>
-    </div>
+    </section>
     <footer>
         <div class="contact_footer">
             <p id="p_footer">Si vous souhaitez me contacter, je vous invite à aller dans l'onglet contact</p>

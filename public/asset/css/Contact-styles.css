@@ -30,10 +30,10 @@ li:last-child{
 }
 
 li a {
-    display: block;
+    display: flex;
+    align-items: center;
     color: white;
     padding: 14px 16px;
-    text-align: center;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
@@ -60,12 +60,62 @@ h2{
     text-align: center;
     color: white;
     margin: 0%;
-    padding-bottom: 2%;
 }
 
 form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+}
+
+.form_group{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    width: 40%;
+}
+
+label{
+    font-family:'Outfit', sans-serif;
     text-align: center;
-    padding-bottom: 5%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+input{
+    height: 1.5rem;
+    border: 3px solid rgba(12, 12, 137, 0.893);
+    border-radius: 5px;
+}
+
+select{
+    height: 2rem;
+    border: 3px solid rgba(12, 12, 137, 0.893);
+    border-radius: 5px;
+}
+
+textarea{
+    height: 8rem;
+    border: 3px solid rgba(12, 12, 137, 0.893);
+    border-radius: 5px;
+}
+
+button{
+    font-family: 'Outfit', sans-serif;
+    background-color: white;
+    border: 3px solid rgba(12, 12, 137, 0.893);
+    width: 10rem;
+    padding: 0.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+button:hover{
+    background-color: rgba(166, 166, 244, 0.351);
+    color: rgba(12, 12, 137, 0.893);
 }
 
 /* --------------------------------------------------------------------------------*/
