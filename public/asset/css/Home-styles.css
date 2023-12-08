@@ -14,26 +14,26 @@ header{
     width: 100%;
 }
 
-ul{
+.ul_navbar_header{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    align-items: center;
 }
 
-li{
+.li_navbar_header{
     float: left;
     height: 56px;
 }
-li:last-child{
+
+.li_navbar_header:last-child{
     float: right;
 }
 
-li a {
-    display: block;
+.li_navbar_header a {
+    display: flex;
+    align-items: center;
     color: white;
     padding: 14px 16px;
-    text-align: center;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
@@ -44,7 +44,7 @@ a{
     height: 28px;
 }
 
-li a:hover {
+.li_navbar_header a:hover {
     background-color: rgb(85, 85, 221);
 }
 
@@ -79,16 +79,16 @@ section{
     border-color: white;
     height: auto;
     width: 84%;
-    margin: 1% 0% 1% 0%;
+    margin: 1% 0% 2.5% 1%;
 }
 
 #dispo_img_article{
     display: flex;
+    margin-bottom: 3%;
 }
 
 .menu_site{
     display: inline;
-    justify-content: center;
 }
 
 .dispo_menu_site{
@@ -101,15 +101,19 @@ section{
     text-align: center;
 }
 
+.article_principal{
+    margin-left: 2%;
+}
+
 .P_article{
     font-family: 'Outfit', sans-serif;
     text-align: justify;
 }
 
 #image-intro{
-    height: 17rem;
-    width: 13rem;
-    padding: 5px 10px;
+    height: 19rem;
+    width: 15rem;
+    border-radius: 10px;
 }
 
 .image-illustration{
@@ -123,18 +127,39 @@ section{
     font-family: 'Kaushan Script', cursive;
     font-size: 26px;
     color: white;
-    margin: 1.5% 0% 1.5% 1%;
+    margin: 1.5% 0% 3% 2.5%;
 }
 
 /* --------------------------------------------------------------------------------*/
-/* --------------------Style section ------------------*/
+/* --------------------Style aside ------------------*/
 
 aside{
-    border-style: dashed;
+    border-style: solid;
     border-color: white;
     height: auto;
-    width: 16%;
-    margin: 1% 0% 1% 1.63%
+    width: 15rem;
+    margin: 1% 1% 1.5% 1.63%;
+}
+
+.h3_aside{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.ul_navbar_aside{
+    list-style-type: none;
+}
+
+.li_navbar_aside a {
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+.li_navbar_aside a:hover{
+    color:  rgba(12, 12, 137, 0.893);
 }
 
 /* --------------------------------------------------------------------------------*/
